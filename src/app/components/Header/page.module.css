@@ -1,0 +1,35 @@
+.container {
+  background-color: rgb(83, 226, 83);
+  height: 2.5rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.menuboxes {
+  display: flex;
+  height: 100%;
+}
+
+.Menus {
+  margin-left: 1rem;
+  transition: color 0.3s, background-color 0.3s;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.Menus:hover {
+  color: black;
+  background-color: rgb(135, 101, 229);
+}
+
+.container.active {
+  background-color: rgb(83, 226, 83);
+  color: aliceblue;
+  font-weight: 900;
+  font-size: 2em;
+}
